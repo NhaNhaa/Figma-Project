@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <nav class=" nav container">
+          <a href="index.html" class="nav__logo">Nhaaa</a>
+  
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="Home.html" class="nav__link active-link">Home</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Resume.html" class="nav__link">Resume</a>
+            </li>
+  
+            <!-- <li class="nav__item">
+              <a href="" class="nav__link">Experience</a>
+            </li> -->
+  
+            <li class="nav__item">
+              <a href="Services.html" class="nav__link">Services</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Projects.html" class="nav__link">Projects</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Reviews.html" class="nav__link">Reviews</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="assets/img/Narin.png" alt="" class="about__img">
+          </div>
+
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am I?">
+              I’m Lim Panha, a Data Scientist and AI & ML Developer
+            </h2>
+
+            <p class="about__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit sit eligendi porro eum dolores animi quae officiis, deleniti dolorum vero exercitationem harum. Labore numquam ipsam consectetur nobis enim. Cum.
+            </p>
+
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Name:</h3>
+                <span class="data__description">Panha Lim</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Age:</h3>
+                <span class="data__description">18 Years</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">From:</h3>
+                <span class="data__description">Phnom Penh, Cambodia</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email</h3>
+                <span class="data__description about__link">panhaLim@mail.com</span>
+              </li>
+            </ul>
+
+            <div class="about__bottom">
+              <a href="assets/pdf/alexandera-Cv.pdf" class="btn">Download CV</a>
+
+              <div class="about__social-links">
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="My Journey">Qualification</h2>
+
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Education</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">CoderHouse Courses</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Backend Programming</h3>
+                    <span class="resume__date">2014 - 2016</span>
+                  </div>
+
+                  <p class="resume__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque voluptatum excepturi ex molestiae quod, officiis accusantium quaerat, earum, totam culpa? Veniam praesentium, consectetur ipsum expedita magni possimus ab! Maiores!</p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">CADT</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">DATA</h3>
+                    <span class="resume__date">2023 - 2024</span>
+                  </div>
+
+                  <p class="resume__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque voluptatum excepturi ex molestiae quod, officiis accusantium quaerat, earum, totam culpa? Veniam praesentium, consectetur ipsum expedita magni possimus ab! Maiores!</p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Home</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">DATA</h3>
+                    <span class="resume__date">2023 - 2024</span>
+                  </div>
+
+                  <p class="resume__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque voluptatum excepturi ex molestiae quod, officiis accusantium quaerat, earum, totam culpa? Veniam praesentium, consectetur ipsum expedita magni possimus ab! Maiores!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__group">
+            <h3 class="resume__heading">Experience</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">About</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">ABC</h3>
+                    <span class="resume__date">2014 - 2016</span>
+                  </div>
+
+                  <p class="resume__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque voluptatum excepturi ex molestiae quod, officiis accusantium quaerat, earum, totam culpa? Veniam praesentium, consectetur ipsum expedita magni possimus ab! Maiores!</p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">CDE</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">FGH</h3>
+                    <span class="resume__date">2023 - 2024</span>
+                  </div>
+
+                  <p class="resume__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque voluptatum excepturi ex molestiae quod, officiis accusantium quaerat, earum, totam culpa? Veniam praesentium, consectetur ipsum expedita magni possimus ab! Maiores!</p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">IJK</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">LMN</h3>
+                    <span class="resume__date">2023 - 2024</span>
+                  </div>
+
+                  <p class="resume__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque voluptatum excepturi ex molestiae quod, officiis accusantium quaerat, earum, totam culpa? Veniam praesentium, consectetur ipsum expedita magni possimus ab! Maiores!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section">
+        <h2 class="section__title title-center" data-title="My Talent">
+          Professional SKills
+        </h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">C Language</h3>
+              <span class="skills__no">85 %</span>
+            </div>
+
+            <p class="skills__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo incidunt recusandae accusamus officia fuga hic fugiat impedit, vel omnis facere vitae, pariatur voluptatem nobis explicabo eos eum id dolore!
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">C++</h3>
+              <span class="skills__no">70 %</span>
+            </div>
+
+            <p class="skills__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo incidunt recusandae accusamus officia fuga hic fugiat impedit, vel omnis facere vitae, pariatur voluptatem nobis explicabo eos eum id dolore!
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 70%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Python</h3>
+              <span class="skills__no">80 %</span>
+            </div>
+
+            <p class="skills__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo incidunt recusandae accusamus officia fuga hic fugiat impedit, vel omnis facere vitae, pariatur voluptatem nobis explicabo eos eum id dolore!
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">HTML & CSS</h3>
+              <span class="skills__no">90 %</span>
+            </div>
+
+            <p class="skills__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo incidunt recusandae accusamus officia fuga hic fugiat impedit, vel omnis facere vitae, pariatur voluptatem nobis explicabo eos eum id dolore!
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 90%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">React</h3>
+              <span class="skills__no">70 %</span>
+            </div>
+
+            <p class="skills__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo incidunt recusandae accusamus officia fuga hic fugiat impedit, vel omnis facere vitae, pariatur voluptatem nobis explicabo eos eum id dolore!
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 70%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">PHP</h3>
+              <span class="skills__no">85 %</span>
+            </div>
+
+            <p class="skills__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo incidunt recusandae accusamus officia fuga hic fugiat impedit, vel omnis facere vitae, pariatur voluptatem nobis explicabo eos eum id dolore!
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <p class="footer__copyright">&copy; 2024 Nha. All Rights Reserved</p>
+
+        <div class="footer__social-links">
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
